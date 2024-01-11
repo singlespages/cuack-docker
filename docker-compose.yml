@@ -1,0 +1,17 @@
+
+
+
+
+
+
+version: '3.1' 
+ 
+services: 
+
+  cuack-com: 
+    build: 
+      context: ./FRONT 
+    container_name: cuack_com 
+    restart: always 
+    ports: 
+      - 5321:80 
